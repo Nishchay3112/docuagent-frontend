@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 // DO NOT CHANGE THESE ENDPOINTS
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docuagent-backend-1xma.onrender.com';
 
 const INITIAL_STAGES = [
   {
@@ -406,7 +406,7 @@ export default function App() {
       }
     } catch (err) {
       setErrorMsg(
-        'Cannot connect to backend server on http://localhost:5000'
+        'Cannot connect to backend server'
       );
       setUploadStatus('');
     } finally {
