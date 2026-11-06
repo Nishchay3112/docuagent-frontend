@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-06T23:22:20.983Z",
+  "generatedAtEpochMs": 1794007340983,
+  "generator": {
+    "name": "Code Janitor",
+    "feature": "workspace-memory"
+  },
+  "handoffGuidance": [
+    "Read graphify-out/GRAPH_REPORT.md first for architecture and dependency questions.",
+    "Use workspace.json for machine-readable repo context before scanning broad parts of the repository.",
+    "Use graphify-out/WORKSPACE_MEMORY.md and workspacememory.md for human-readable handoff notes, recent changes, and Git-aware status."
+  ],
+  "workspace": {
+    "name": "frontend",
+    "root": "c:\\Users\\Nishchay\\OneDrive\\Desktop\\Projects\\DocuAgent\\docuagent-ai\\frontend",
+    "activeFile": "src/App.jsx",
+    "refreshReason": "tracked-change",
+    "outputFiles": {
+      "markdown": "graphify-out/WORKSPACE_MEMORY.md",
+      "markdownMirror": "workspacememory.md",
+      "structuredManifest": "workspace.json"
+    },
+    "suggestedStartingPoints": [
+      "src/App.jsx",
+      ".gitignore",
+      "README.md",
+      "package-lock.json",
+      "package.json"
+    ],
+    "stats": {
+      "totalFiles": 16,
+      "topLevelAreas": [
+        {
+          "name": "[root]",
+          "count": 9
+        },
+        {
+          "name": "src",
+          "count": 7
+        }
+      ],
+      "primaryFileTypes": [
+        {
+          "name": ".json",
+          "count": 4
+        },
+        {
+          "name": ".css",
+          "count": 2
+        },
+        {
+          "name": ".jsx",
+          "count": 2
+        },
+        {
+          "name": ".md",
+          "count": 2
+        },
+        {
+          "name": ".svg",
+          "count": 2
+        },
+        {
+          "name": ".html",
+          "count": 1
+        },
+        {
+          "name": ".js",
+          "count": 1
+        },
+        {
+          "name": ".png",
+          "count": 1
+        }
+      ],
+      "keyFiles": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json"
+      ],
+      "fileInventory": [
+        {
+          "path": ".gitignore",
+          "topLevelArea": "[root]",
+          "extension": "[no extension]",
+          "isKeyFile": true
+        },
+        {
+          "path": ".oxlintrc.json",
+          "topLevelArea": "[root]",
+          "extension": ".json",
+          "isKeyFile": false
+        },
+        {
+          "path": "index.html",
+          "topLevelArea": "[root]",
+          "extension": ".html",
+          "isKeyFile": false
+        },
+        {
+          "path": "package-lock.json",
+          "topLevelArea": "[root]",
+          "extension": ".json",
+          "isKeyFile": true
+        },
+        {
+          "path": "package.json",
+          "topLevelArea": "[root]",
+          "extension": ".json",
+          "isKeyFile": true
+        },
+        {
+          "path": "README.md",
+          "topLevelArea": "[root]",
+          "extension": ".md",
+          "isKeyFile": true
+        },
+        {
+          "path": "src/App.css",
+          "topLevelArea": "src",
+          "extension": ".css",
+          "isKeyFile": false
+        },
+        {
+          "path": "src/App.jsx",
+          "topLevelArea": "src",
+          "extension": ".jsx",
+          "isKeyFile": false
+        },
+        {
+          "path": "src/assets/hero.png",
+          "topLevelArea": "src",
+          "extension": ".png",
+          "isKeyFile": false
+        },
+        {
+          "path": "src/assets/react.svg",
+          "topLevelArea": "src",
+          "extension": ".svg",
+          "isKeyFile": false
+        },
+        {
+          "path": "src/assets/vite.svg",
+          "topLevelArea": "src",
+          "extension": ".svg",
+          "isKeyFile": false
+        },
+        {
+          "path": "src/index.css",
+          "topLevelArea": "src",
+          "extension": ".css",
+          "isKeyFile": false
+        },
+        {
+          "path": "src/main.jsx",
+          "topLevelArea": "src",
+          "extension": ".jsx",
+          "isKeyFile": false
+        },
+        {
+          "path": "vite.config.js",
+          "topLevelArea": "[root]",
+          "extension": ".js",
+          "isKeyFile": false
+        },
+        {
+          "path": "workspace.json",
+          "topLevelArea": "[root]",
+          "extension": ".json",
+          "isKeyFile": false
+        },
+        {
+          "path": "workspacememory.md",
+          "topLevelArea": "[root]",
+          "extension": ".md",
+          "isKeyFile": false
+        }
+      ]
+    }
+  },
+  "package": {
+    "available": true,
+    "name": "frontend",
+    "displayName": "",
+    "version": "0.0.0",
+    "description": "",
+    "license": "",
+    "homepage": "",
+    "packageManager": "",
+    "main": "",
+    "repository": {
+      "type": "",
+      "url": ""
+    },
+    "bugsUrl": "",
+    "engines": {},
+    "keywords": [],
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "oxlint",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@tailwindcss/vite": "^4.3.3",
+      "react": "^19.2.8",
+      "react-dom": "^19.2.8"
+    },
+    "devDependencies": {
+      "@types/react": "^19.2.18",
+      "@types/react-dom": "^19.2.7",
+      "@vitejs/plugin-react": "^6.1.1",
+      "autoprefixer": "^10.6.1",
+      "oxlint": "^1.81.0",
+      "postcss": "^8.5.29",
+      "tailwindcss": "^4.3.3",
+      "vite": "^8.3.0"
+    }
+  },
+  "currentStack": {
+    "lastActivityAt": "2026-11-06T23:22:19.174Z",
+    "trackedChangeCount": 2,
+    "trackedFileSnapshotCount": 1,
+    "changeTypeCounts": {
+      "save": 2,
+      "create": 0,
+      "delete": 0,
+      "rename": 0
+    }
+  },
+  "trackedSnapshots": [
+    {
+      "filePath": "src/App.jsx",
+      "updatedAt": 1794007339174,
+      "lineCount": 2159,
+      "charCount": 68210,
+      "hash": "43fc44ad4ff6",
+      "preview": "import React, { useEffect, useRef, useState } from 'react'; / // DO NOT CHANGE THESE ENDPOINTS / const API_BASE_URL = 'https://docuagent-backend-w5vs.onrender.com'; / const INITIAL_STAGES = [ / { / step: 1, / title: '..."
+    }
+  ],
+  "recentChanges": [
+    {
+      "type": "save",
+      "path": "src/App.jsx",
+      "toPath": "",
+      "summary": "Line 4: inserted 1 line.",
+      "recordedAt": "2026-11-06T23:22:19.174Z",
+      "recordedAtEpochMs": 1794007339174,
+      "before": {
+        "kind": "text",
+        "lineCount": 2159,
+        "charCount": 68167,
+        "hash": "2b9c640b68a3",
+        "preview": "import React, { useEffect, useRef, useState } from 'react'; / // DO NOT CHANGE THESE ENDPOINTS / const API_BASE_URL = ''; / const INITIAL_STAGES = [ / { / step: 1, / title: 'Query understanding', / status: 'queued', /...",
+        "updatedAt": 1794007339173
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 2159,
+        "charCount": 68210,
+        "hash": "43fc44ad4ff6",
+        "preview": "import React, { useEffect, useRef, useState } from 'react'; / // DO NOT CHANGE THESE ENDPOINTS / const API_BASE_URL = 'https://docuagent-backend-w5vs.onrender.com'; / const INITIAL_STAGES = [ / { / step: 1, / title: '...",
+        "updatedAt": 1794007339174
+      },
+      "diff": {
+        "lineStart": 4,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 4: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "https://docuagent-backend-w5vs.onrender.com"
+      }
+    },
+    {
+      "type": "save",
+      "path": "src/App.jsx",
+      "toPath": "",
+      "summary": "Line 4: removed 1 line.",
+      "recordedAt": "2026-11-06T23:22:17.687Z",
+      "recordedAtEpochMs": 1794007337687,
+      "before": {
+        "kind": "text",
+        "lineCount": 2159,
+        "charCount": 68210,
+        "hash": "552a65434bab",
+        "preview": "import React, { useEffect, useRef, useState } from 'react'; / // DO NOT CHANGE THESE ENDPOINTS / const API_BASE_URL = 'https://docuagent-backend-1xma.onrender.com'; / const INITIAL_STAGES = [ / { / step: 1, / title: '...",
+        "updatedAt": 1794007337687
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 2159,
+        "charCount": 68167,
+        "hash": "2b9c640b68a3",
+        "preview": "import React, { useEffect, useRef, useState } from 'react'; / // DO NOT CHANGE THESE ENDPOINTS / const API_BASE_URL = ''; / const INITIAL_STAGES = [ / { / step: 1, / title: 'Query understanding', / status: 'queued', /...",
+        "updatedAt": 1794007337687
+      },
+      "diff": {
+        "lineStart": 4,
+        "removedLines": 1,
+        "addedLines": 0,
+        "summary": "Line 4: removed 1 line.",
+        "beforeFragment": "https://docuagent-backend-1xma.onrender.com",
+        "afterFragment": ""
+      }
+    }
+  ],
+  "hotFiles": [
+    {
+      "filePath": "src/App.jsx",
+      "count": 2
+    }
+  ],
+  "git": {
+    "available": true,
+    "branch": "main",
+    "headSummary": "2026-10-07 ca6ca82 Update API URL",
+    "statusSummary": "1 modified, 3 untrackeds",
+    "changedFileCount": 4,
+    "statusLines": [
+      "M src/App.jsx",
+      "?? graphify-out/",
+      "?? workspace.json",
+      "?? workspacememory.md"
+    ],
+    "error": ""
+  },
+  "github": {
+    "available": true,
+    "summary": "GitHub Repository: Nishchay3112/docuagent-frontend\nDescription: A CRAG system made using react.js and express.js \nVisibility: public | Default branch: main\nStars: 0 | Forks: 0 | Open issues: 0\n\nLatest commit on main:\n- ca6ca82 by Nishchay on 2026-10-06\n  Update API URL\n\nURL: https://github.com/Nishchay3112/docuagent-frontend"
+  },
+  "graphify": {
+    "reportAvailable": false,
+    "graphAvailable": false,
+    "reportPath": "",
+    "graphPath": "",
+    "highlights": ""
+  },
+  "projectPlanner": null,
+  "agentNotes": [
+    "For recent repo changes, check recentChanges, trackedSnapshots, hotFiles, and git.",
+    "For architecture questions, combine graphify highlights with the Graphify report.",
+    "For machine-readable repo context, prefer this workspace.json manifest before broad repo scans."
+  ]
+}

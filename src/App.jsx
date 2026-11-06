@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 // DO NOT CHANGE THESE ENDPOINTS
-const API_BASE_URL = 'https://docuagent-backend-1xma.onrender.com';
+const API_BASE_URL = 'https://docuagent-backend-w5vs.onrender.com';
 
 const INITIAL_STAGES = [
   {
